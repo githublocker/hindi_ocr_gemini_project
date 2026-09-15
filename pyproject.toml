@@ -1,0 +1,16 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "hindi-ocr-gemini"
+version = "0.1.0"
+description = "A custom Hindi OCR wrapper based on Surya"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "surya-ocr"
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/hindi_ocr_gemini"]
