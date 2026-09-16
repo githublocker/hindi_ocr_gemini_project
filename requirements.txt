@@ -3,3 +3,4 @@ pandas
 easyocr
 Pillow
 google-cloud-vision
+datasets
